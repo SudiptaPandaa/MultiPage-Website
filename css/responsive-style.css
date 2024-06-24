@@ -1,0 +1,156 @@
+/* Media Query 1170px */
+@media (max-width:1170px) {
+
+    /* General CSS */
+    .section-subtitle{
+        max-width: 60%;
+    }
+    /* Contact Section */
+    .contact_section .section-title {
+        font-size: 2.2rem;
+    }
+
+    .contact_section .section-subtitle {
+        font-size: 1.1rem;
+    }
+
+    /* 02 Banner Section */
+}
+
+/* Media Query 991px */
+@media (max-width:991px) {
+    /*General  CSS */
+    .about .banner_section,
+    .product .banner_section,
+    .gallery .banner_section,
+    .contact .banner_section,
+    .distributors .banner_section {
+    padding-top: 12.5rem;
+    padding-bottom: 3rem;
+}
+
+    /* 01 Navbar CSS */
+    .header .navbar{
+        background-size: cover;
+        padding: 2rem;
+    }
+    .header .navbar-nav{
+        margin-top: 2rem;
+    }
+    .header .navbar-nav .nav-link{
+        padding: 0.2rem 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .header.header_right span{
+        padding: 0.2rem 0.5rem;
+    }
+    /* Contact Section */
+    .contact_section .section-title {
+        font-size: 2rem;
+    }
+
+    .contact_section .section-subtitle {
+        font-size: 1rem;
+    }
+    
+
+}
+
+/* Media Query 767px */
+@media (max-width:767px) {
+    /*General  CSS */
+    body,html{
+        font-size: 8px;
+    }
+    .section-subtitle{
+        max-width: 80%;
+    }
+
+    /* 02 Banner Section */
+    .banner_section{
+        min-height: 70vh;
+    }
+    .banner_section .carousel-item{
+        height: 70vh;
+    }
+    /* Contact Section */
+    .contact_section .section-title {
+        font-size: 1.8rem;
+    }
+
+    .contact_section .section-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .contact_section form {
+        padding: 1.5rem;
+    }
+
+    .contact_section .btn {
+        font-size: 1rem;
+        padding: 0.75rem 1.5rem;
+    }
+
+
+}
+
+/* Media Query 768px */
+@media (max-width: 768px) {
+    .about_section .section-title {
+        font-size: 2rem;
+    }
+
+    .about_section .section-subtitle {
+        font-size: 1.25rem;
+    }
+
+    .about_section .about-content {
+        padding: 1.5rem;
+    }
+
+    .about_section img {
+        margin-bottom: 1rem;
+    }
+    /* Contact Section */
+    .contact_section .section-title {
+        font-size: 1.8rem;
+    }
+
+    .contact_section .section-subtitle {
+        font-size: 1rem;
+    }
+
+    .contact_section form {
+        padding: 1.5rem;
+    }
+
+    .contact_section .btn {
+        font-size: 1rem;
+        padding: 0.75rem 1.5rem;
+    }
+}
+
+/*Media Query 590px */
+@media (max-width:590px){
+    /* General CSS */
+    body,html{
+        font-size: 7px;
+    }
+    /* Contact Section */
+    .contact_section .section-title {
+        font-size: 1.6rem;
+    }
+
+    .contact_section .section-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .contact_section form {
+        padding: 1rem;
+    }
+
+    .contact_section .btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+}
